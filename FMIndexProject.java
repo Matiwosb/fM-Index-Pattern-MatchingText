@@ -6,9 +6,9 @@ public class FMIndexProject {
 
     public static void main(String[] args) {
         String[] files = {
-                "C:\\Users\\Roohana Karim\\Downloads\\algo_project_2024\\chimpanzee.txt",
-                "C:\\Users\\Roohana Karim\\Downloads\\algo_project_2024\\dog.txt",
-                "C:\\Users\\Roohana Karim\\Downloads\\algo_project_2024\\human.txt"
+                "chimpanzee.txt",
+                "dog.txt",
+                "human.txt"
         };
 
         for (String file : files) {
@@ -38,14 +38,24 @@ public class FMIndexProject {
 
             System.out.println("Processing chunk: " + chunk.substring(0, Math.min(50, chunk.length())) + "...");
             try {
-                int[] suffixArray = buildSuffixArray(chunk);
-
+                chunk += chunk.charAt(chunk.length() - 1) != '$' ? '$' : "";
+                var chunk_temp = chunk.replace(' ', '(');
+                int[] suffixArray = buildSuffixArray(chunk_temp);
                 // Print the suffix array and verify
-                printSuffixArray(chunk, suffixArray);
+                printSuffixArray(chunk_temp, suffixArray);
 
                 System.out.println("Suffix array built successfully for this chunk.");
+                // Implementing Burrows-Wheeler Transformation
+                Burrows_Wheeler bw = new Burrows_Wheeler();
+                String bwt_suffix = bw.transform(chunk_temp, suffixArray);
+                String bwt_original = bw.untransform(bwt_suffix).replace('(', ' ');
+
+                if (bwt_original.equals(chunk)) System.out.println("Burrows-Wheeler transformation successful. ");
+                else throw new Exception();
+
+
             } catch (Exception e) {
-                System.err.println("Error processing chunk: " + e.getMessage());
+                System.err.println("Error processing chunk or during Burrows-Wheeler Transform. " + e.getMessage());
                 e.printStackTrace();
             }
         }
