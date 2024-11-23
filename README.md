@@ -5,8 +5,13 @@ Input: Datasets from species like chimpanzees, dogs, and humans, containing larg
 
 Challenges: Memory issues (Java heap space errors) required chunking the data for efficient processing.
 
-Solution: Split datasets into chunks, process each chunk independently, and build suffix arrays for each.
+Solution: Split datasets into chunks, process each chunk independently and build suffix arrays for each.
 
 Output: Successfully built suffix arrays for all chunks, covering the entire dataset.
 
-Next Steps: Implement Burrows-Wheeler Transform (BWT) and complete FM-Index construction.
+Burrows-Wheeler Transform - Step 2
+Objective: Transform the processed text using the BWT method, inversely transform the resultant string, and then compare the two results.
+
+Input: Suffix Array from step 1 and the processed text.
+
+Output: Successfully transformed text permutation. This output is then passed as input into the inverse BWT function, and then compared.
