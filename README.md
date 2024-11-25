@@ -1,7 +1,9 @@
-
+<p align="center">
 CSC 7300
 Algorithm Design and
 Analysis
+
+</p>
 
 Teamates :<br>
     - Ruhana Karim <br>
