@@ -1,18 +1,23 @@
-<p align="center">
-CSC 7300
-Algorithm Design and
-Analysis
 
-</p>
+# CSC 7300
+## Algorithm Design and Analysis
 
-Teamates :<br>
-    - Ruhana Karim <br>
-    - Patrcick <br>
-    - Matiwos <br>
-    - Kaushani Samarawickrama  <br>
-    
-FM-Index Construction - Step 1 (Suffix Array)
-Objective: Build the Suffix Array (SA) for large DNA sequences as the first step in constructing an FM-Index.
+
+### Teamates :
+    Ruhana Karim 
+    Patrcick 
+    Matiwos 
+    Kaushani Samarawickrama 
+## Table of Content
+## Description
+## Problem
+## Applicationd
+## Input
+## Output
+## Algorithms
+    Description
+### FM-Index Construction - Step 1 (Suffix Array)
+#### Objective: Build the Suffix Array (SA) for large DNA sequences as the first step in constructing an FM-Index.
 
 Input: Datasets from species like chimpanzees, dogs, and humans, containing large DNA sequences.
 
