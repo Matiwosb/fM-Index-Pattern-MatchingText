@@ -1,3 +1,14 @@
+
+CSC 7300
+Algorithm Design and
+Analysis
+
+Teamates :
+    - Ruhana Karim
+    - Patrcick
+    - Matiwos <br>
+    - Kaushani Samarawickrama 
+    
 FM-Index Construction - Step 1 (Suffix Array)
 Objective: Build the Suffix Array (SA) for large DNA sequences as the first step in constructing an FM-Index.
 
