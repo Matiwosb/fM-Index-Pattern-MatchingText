@@ -4,7 +4,7 @@
 
 
 ### Teamates :
-    Ruhana Karim 
+    Roohana Karim
     Patrcick 
     Matiwos 
     Kaushani Samarawickrama 
