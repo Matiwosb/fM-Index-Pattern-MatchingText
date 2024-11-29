@@ -13,6 +13,10 @@ public class Burrows_Wheeler {
         return bwt.toString();
     }
 
+    public WaveletTree buildWaveletTree(String bwt) {
+        return new WaveletTree(bwt, 'A', 'Z');
+    }
+
     public String untransform(String bwt) {
         // Create first and last column
         char[] last = bwt.toCharArray();
