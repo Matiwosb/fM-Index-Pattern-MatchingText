@@ -58,23 +58,14 @@ public class FMIndexProject {
 
                 WaveletTree.testWaveletTree(wt, bwt_suffix);
                 
-                                // // char c = bwt.replace(' ', '(').charAt(0);
-                                // int rankResult = wt.rank(chunk_temp, bwt_suffix.length() - 1);
-                                // System.out.println("Rank of '" + c + "': " + rankResult);
                 
-                            } catch (Exception e) {
-                                System.err.println("Error processing chunk or during Burrows-Wheeler Transform. " + e.getMessage());
-                                e.printStackTrace();
+                } catch (Exception e) {
+                         System.err.println("Error processing chunk or during Burrows-Wheeler Transform. " + e.getMessage());
+                         e.printStackTrace();
                             }
                         }
                     }
                 
-                    // private static void testWaveletTree(WaveletTree wt, String bwt_suffix) {
-                    //     // TODO Auto-generated method stub
-                    //     throw new UnsupportedOperationException("Unimplemented method 'testWaveletTree'");
-                    // }
-                
-                    // Build suffix array (existing logic)
 
     private static int[] buildSuffixArray(String text) {
         int n = text.length();
@@ -101,33 +92,4 @@ public class FMIndexProject {
             System.out.println(index + ": " + (suffix.length() > 50 ? suffix.substring(0, 50) + "..." : suffix));
         }
     }
-
-    // private static void testWaveletTree(WaveletTree w, String bwtSuffix) {
-    //     Set<Character> uniqueChars = new HashSet<>();
-    //     for (char c : bwtSuffix.toCharArray()) {
-    //         uniqueChars.add(c);
-    //     }
-
-    //     for (char c : uniqueChars) {
-    //         int totalOccurrences = 0;
-    //         for (int i = 0; i < bwtSuffix.length(); i++) {
-    //             if (bwtSuffix.charAt(i) == c) totalOccurrences++;
-    //         }
-
-    //         // Test Rank
-    //         int rankAtEnd = w.rank(c, bwtSuffix.length() - 1);
-    //         System.out.println("Rank of '" + c + "' at end: " + rankAtEnd);
-    //         assert rankAtEnd == totalOccurrences : "Rank mismatch for character '" + c + "'";
-
-    //         // Test Select
-    //         for (int i = 1; i <= totalOccurrences; i++) {
-    //             int selectPos = wt.select(c, i);
-    //             assert selectPos >= 0 && bwtSuffix.charAt(selectPos) == c : 
-    //                 "Select mismatch for character '" + c + "', occurrence " + i;
-    //             System.out.println("Position of " + i + "-th occurrence of '" + c + "': " + selectPos);
-    //         }
-            
-    //     }
-    //     System.out.println("Wavelet Tree tested successfully.");
-    // }
 }
