@@ -2,6 +2,7 @@ import java.util.*;
 
 
 public class Burrows_Wheeler {
+    //Converts input text into BWT
     public String transform(String text, int[] suffixArray) {
         int n = text.length();
         if (n <= 2) return text;
@@ -17,6 +18,7 @@ public class Burrows_Wheeler {
         return new WaveletTree(bwt, 'A', 'Z');
     }
 
+    // Converts BWT into original text
     public String untransform(String bwt) {
         // Create first and last column
         char[] last = bwt.toCharArray();
@@ -29,14 +31,14 @@ public class Burrows_Wheeler {
         while (i++ < last.length - 1) {
             sortAndAdd(first, last);
         }
+        //find fully rotated value in array
         for (var item : first) {
             if (item.charAt(item.length() - 1) == '$') return item;
         }
         System.out.println(Arrays.toString(first));
-        // Print the sorted array
         return "";
     }
-
+    //helper function to untransform bwt string
     private void sortAndAdd(String[] first, char[] last) {
         Arrays.sort(first);
         for (int idx = 0; idx < last.length; idx++) {
