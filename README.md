@@ -5,13 +5,13 @@
 
 ### Teamates :
     Roohana Karim
-    Patrcick 
-    Matiwos 
+    Patrcick Adeosun
+    Matiwos Birbo
     Kaushani Samarawickrama 
 ## Table of Content
 ## Description
 ## Problem
-## Applicationd
+## Application
 ## Input
 ## Output
 ## Algorithms
@@ -33,3 +33,5 @@ Objective: Transform the processed text using the BWT method, inversely transfor
 Input: Suffix Array from step 1 and the processed text.
 
 Output: Successfully transformed text permutation. This output is then passed as input into the inverse BWT function, and then compared.
+
+### Wavalet Tree and Bit Vector
