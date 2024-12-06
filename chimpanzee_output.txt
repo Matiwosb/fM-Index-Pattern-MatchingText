@@ -1,0 +1,420 @@
+Processing chunk: sequence	classATGCCCCAACTAAATACCGCCGTATGACCCACCATA...
+Pattern 'ACG' found at positions: [221, 8, 500] (Query Time: 34200 ns)
+Pattern 'TGCA' found at positions: [221] (Query Time: 19600 ns)
+Pattern 'GATTACA' found at positions: [221] (Query Time: 22700 ns)
+Pattern 'TTAGGC' found at positions: [221] (Query Time: 31000 ns)
+Processing chunk: CACCAACCACCCAACTATCTATAAACCTAGCCATGGCTATCCCCCTATGA...
+Pattern 'ACG' found at positions: [404, 500, 405, 403, 402, 86, 87, 22] (Query Time: 15700 ns)
+Pattern 'TGCA' found at positions: [404, 500] (Query Time: 17100 ns)
+Pattern 'GATTACA' found at positions: [404] (Query Time: 41700 ns)
+Pattern 'TTAGGC' found at positions: [404] (Query Time: 51300 ns)
+Processing chunk: CGGGGCCGAGCGCCGCTGCCGACGTCCGCGCGCAGGTTCATAGGCGGAAG...
+Pattern 'ACG' found at positions: [500, 174, 158, 478, 175, 159, 479, 194] (Query Time: 11000 ns)
+Pattern 'TGCA' found at positions: [500, 174] (Query Time: 8700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 9300 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 8600 ns)
+Processing chunk: TGGGGTGAAAAGAAGGCTGTTCTTGCTGGAGATTTAATTCTTTCTGCAGC...
+Pattern 'ACG' found at positions: [500, 499, 293, 294, 149, 7, 154, 295, 366, 150, 8, 166, 231] (Query Time: 9300 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 9200 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 9900 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 8900 ns)
+Processing chunk: GTATGTATTACAGAGTGATGGTGTGCAACAAACAACCTACCTCGCCCAGC...
+Pattern 'ACG' found at positions: [154, 500, 155, 153, 415, 399, 416, 29, 400, 435, 82, 101] (Query Time: 7200 ns)
+Pattern 'TGCA' found at positions: [154, 500] (Query Time: 5300 ns)
+Pattern 'GATTACA' found at positions: [154] (Query Time: 9700 ns)
+Pattern 'TTAGGC' found at positions: [154] (Query Time: 9700 ns)
+Processing chunk: ATCAGAACTTAAGGAAATGTCTGAGTACTACTTTGATGGGAAAGGGAAAG...
+Pattern 'ACG' found at positions: [500, 219, 390, 248, 395, 220, 391, 249] (Query Time: 8500 ns)
+Pattern 'TGCA' found at positions: [500, 219] (Query Time: 8800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 8500 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 8700 ns)
+Processing chunk: ACCCAGTGGTGCATGAGATCGCCTATCAGTACGGAAAAAATGTAGGAATA...
+Pattern 'ACG' found at positions: [395, 500, 396, 394, 34, 35, 36, 270, 107, 323, 342, 389, 180, 37, 369] (Query Time: 6100 ns)
+Pattern 'TGCA' found at positions: [395, 500, 396] (Query Time: 8900 ns)
+Pattern 'GATTACA' found at positions: [395] (Query Time: 9900 ns)
+Pattern 'TTAGGC' found at positions: [395] (Query Time: 9400 ns)
+Processing chunk: CAGTGGGTCTCGAGAGACGGGACTGGAGTCCCAGTCCACCCGCCACGCCC...
+Pattern 'ACG' found at positions: [500, 320, 192, 311, 290, 437] (Query Time: 8000 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 8600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 9600 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 9000 ns)
+Processing chunk: CTGCACGCCCACCTGGACATCTGGAAGTCAGCGGCCTGGATGAAAGAGCG...
+Pattern 'ACG' found at positions: [405, 500, 406, 404, 234, 42, 235, 213, 282, 297, 279] (Query Time: 6100 ns)
+Pattern 'TGCA' found at positions: [405] (Query Time: 7100 ns)
+Pattern 'GATTACA' found at positions: [405] (Query Time: 8400 ns)
+Pattern 'TTAGGC' found at positions: [405] (Query Time: 14700 ns)
+Processing chunk: GCAGCGGGGGCAGTGGGTCTCGAGAGACGGGACTGGAGTCCCAGTCCACC...
+Pattern 'ACG' found at positions: [500, 330, 202, 321, 300, 447] (Query Time: 13300 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 9600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 14400 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 7300 ns)
+Processing chunk: TGGGGATGTGCTGCACGCCCACCTGGACATCTGGAAGTCAGCCTCGACCA...
+Pattern 'ACG' found at positions: [367, 500, 368, 366, 196, 386, 422, 379, 197, 175] (Query Time: 29700 ns)
+Pattern 'TGCA' found at positions: [367, 500] (Query Time: 7100 ns)
+Pattern 'GATTACA' found at positions: [367] (Query Time: 9000 ns)
+Pattern 'TTAGGC' found at positions: [367] (Query Time: 6800 ns)
+Processing chunk: TGGGCTCGTGGGAAACTTACTAGCCTTGGTCGTCATTGTTCAAAACAGGA...
+Pattern 'ACG' found at positions: [500, 499, 498, 49, 50, 294, 51, 41, 295, 312, 52] (Query Time: 5500 ns)
+Pattern 'TGCA' found at positions: [500, 499, 498] (Query Time: 8800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 10800 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 8300 ns)
+Processing chunk: TCATTCTCATCTGCTATTCTCAGATCTGCTGCAAACTCTTCAGAACTGCC...
+Pattern 'ACG' found at positions: [455, 500, 456, 454, 86, 54, 87, 390, 82, 50] (Query Time: 23400 ns)
+Pattern 'TGCA' found at positions: [455, 500] (Query Time: 9600 ns)
+Pattern 'GATTACA' found at positions: [455] (Query Time: 11400 ns)
+Pattern 'TTAGGC' found at positions: [455] (Query Time: 9200 ns)
+Processing chunk: GGGGAGGCGGCGGCTCCAGCGCCGGGGCGGCCGGCGGAGGGGACGACCTC...
+Pattern 'ACG' found at positions: [500, 296, 485, 407, 176, 56, 164, 362] (Query Time: 8000 ns)
+Pattern 'TGCA' found at positions: [500, 296, 485, 407] (Query Time: 8600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 9800 ns)
+Pattern 'TTAGGC' found at positions: [500, 296, 485, 407] (Query Time: 10100 ns)
+Processing chunk: CAGCACCCGCATCACATGCATCCGCTGACTCCCCTCATCACCTACAGCAA...
+Pattern 'ACG' found at positions: [500, 462, 475, 463, 476, 104, 464, 444, 181, 406] (Query Time: 8800 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 8500 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 10900 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 9500 ns)
+Processing chunk: TCTGAATGCCTTCATGTTGTATATGAAGGAGATGAGGGCCAAGGTGGTGG...
+Pattern 'ACG' found at positions: [500, 217, 218, 236, 475, 482, 219, 237, 68, 99, 125, 476, 82] (Query Time: 8300 ns)
+Pattern 'TGCA' found at positions: [500, 217, 218] (Query Time: 10400 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 11700 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 10200 ns)
+Processing chunk: CTCTCCACTCTGCCGCCTTCCTGTCGGCTAAGGCTGCAGCCTCCTCCTCT...
+Pattern 'ACG' found at positions: [221, 500, 222, 220, 219, 232, 233, 484] (Query Time: 9600 ns)
+Pattern 'TGCA' found at positions: [221, 500] (Query Time: 25300 ns)
+Pattern 'GATTACA' found at positions: [221] (Query Time: 11800 ns)
+Pattern 'TTAGGC' found at positions: [221] (Query Time: 12000 ns)
+Processing chunk: CGGCGCCCACAGGCAGCCAGCAGCAGGCCTGGCCCGGCCGCCAGAGCCAG...
+Pattern 'ACG' found at positions: [500, 305, 443, 437, 493, 377, 329, 338, 212, 326, 409] (Query Time: 9400 ns)
+Pattern 'TGCA' found at positions: [500, 305, 443] (Query Time: 13300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 11200 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 15100 ns)
+Processing chunk: TCGTTACTGGGAGGTGTTCTCAGAAGAGCCAAATCGAAAAATGGAGGCCG...
+Pattern 'ACG' found at positions: [500, 36, 37, 204, 471, 300, 105, 495, 30, 248, 38] (Query Time: 9700 ns)
+Pattern 'TGCA' found at positions: [500, 36, 37, 204] (Query Time: 15400 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 11200 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 10800 ns)
+Processing chunk: CTACATGAACCCTGGAGACCAGAGTCCAGCTGATTCTAACAAAACCCTGG...
+Pattern 'ACG' found at positions: [76, 500, 77, 75, 499, 74, 40, 52, 169, 41, 488, 266, 70, 295] (Query Time: 9200 ns)
+Pattern 'TGCA' found at positions: [76, 500] (Query Time: 11000 ns)
+Pattern 'GATTACA' found at positions: [76] (Query Time: 12000 ns)
+Pattern 'TTAGGC' found at positions: [76] (Query Time: 11400 ns)
+Processing chunk: GGAAATTGGAAATGGCTGGTTTGGAAAGGTTCTCTTGGGAGAGATTTACA...
+Pattern 'ACG' found at positions: [500, 478, 479, 127, 87, 480, 128, 467, 88, 105, 24, 415, 481] (Query Time: 8400 ns)
+Pattern 'TGCA' found at positions: [500, 478, 479, 127] (Query Time: 15800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 11400 ns)
+Pattern 'TTAGGC' found at positions: [500, 478, 479] (Query Time: 12100 ns)
+Processing chunk: GGACTGCTCCAGAATTAGTAACCAGCTTTCAAGACAGACTGCTAACTGCA...
+Pattern 'ACG' found at positions: [500, 181, 261, 376, 477, 130, 182, 262, 450, 395] (Query Time: 24900 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 11200 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 10500 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 10200 ns)
+Processing chunk: GAGTATGTCTGGGAGGCCGCTAAGCACGACCACTTTGACGAGCGCAGCCG...
+Pattern 'ACG' found at positions: [500, 499, 498, 247, 248, 249, 417, 137, 400, 316, 250] (Query Time: 10000 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 11700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 12800 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 12000 ns)
+Processing chunk: ATCGGAAGATTTGCCCAGTCACCAAAAAATATTCGACTTAATGGAATTAA...
+Pattern 'ACG' found at positions: [500, 23, 262, 24, 263, 239] (Query Time: 9200 ns)
+Pattern 'TGCA' found at positions: [500, 23] (Query Time: 10600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 22300 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 12500 ns)
+Processing chunk: AGTCTTCCCCGGAAGTGCAGGTACCTCCTACCTCCTTCGAAACAGAAGAA...
+Pattern 'ACG' found at positions: [500, 401, 402, 454, 39, 359, 93, 48, 403, 455, 443, 270, 427, 180] (Query Time: 9100 ns)
+Pattern 'TGCA' found at positions: [500, 401, 402, 454, 39] (Query Time: 11300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 12100 ns)
+Pattern 'TTAGGC' found at positions: [500, 401] (Query Time: 11300 ns)
+Processing chunk: CAGGACAGCCTCCTGGAGGACAGCTTGTCAGCACCCTTCCCAGCCTCTGA...
+Pattern 'ACG' found at positions: [500, 420, 175, 61, 135, 421, 176, 241, 62, 285, 443, 136] (Query Time: 9500 ns)
+Pattern 'TGCA' found at positions: [500, 420, 175] (Query Time: 12300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 13200 ns)
+Pattern 'TTAGGC' found at positions: [500, 420] (Query Time: 12900 ns)
+Processing chunk: CCCCGAGCAAAGTCCTGCTGCCCAGGATAGCTGCCTGGAAGCCAGAAAGA...
+Pattern 'ACG' found at positions: [500, 443, 444, 379, 45, 8, 62, 268, 445, 481, 274] (Query Time: 13500 ns)
+Pattern 'TGCA' found at positions: [500, 443, 444] (Query Time: 12600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 13200 ns)
+Pattern 'TTAGGC' found at positions: [500, 443] (Query Time: 11200 ns)
+Processing chunk: CCGAGTCGGAGGACGAGACCGAGCACCCCGTGCCCATCATCCTCAGCAAC...
+Pattern 'ACG' found at positions: [500, 132, 408, 133, 367, 197, 297, 373, 409, 193, 380] (Query Time: 11100 ns)
+Pattern 'TGCA' found at positions: [500, 132, 408] (Query Time: 11900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 16700 ns)
+Pattern 'TTAGGC' found at positions: [500, 132] (Query Time: 14200 ns)
+Processing chunk: CCCGCCAACATTGCCAGCTTTTCCCTCACACACCTGACCGACTCGGACAT...
+Pattern 'ACG' found at positions: [90, 500, 91, 79, 475, 253, 80, 496] (Query Time: 14400 ns)
+Pattern 'TGCA' found at positions: [90, 500, 91, 79] (Query Time: 12000 ns)
+Pattern 'GATTACA' found at positions: [90] (Query Time: 12500 ns)
+Pattern 'TTAGGC' found at positions: [90] (Query Time: 12700 ns)
+Processing chunk: GGCTGGTTTGGAAAGGTTCTCTTGGGAGAGATTTACACGGGCACTAGCGT...
+Pattern 'ACG' found at positions: [500, 499, 465, 466, 114, 74, 467, 115, 454, 75, 92, 11, 402, 468, 149, 116] (Query Time: 119600 ns)
+Pattern 'TGCA' found at positions: [500, 499, 465] (Query Time: 14300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 25200 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 14500 ns)
+Processing chunk: ATTAGTAACCAGCTTTCAAGACAGACTGCTAACTGCAGATCAGACTAAGT...
+Pattern 'ACG' found at positions: [500, 168, 248, 363, 464, 117, 169, 249, 437, 382] (Query Time: 8400 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 12300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 17900 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 13300 ns)
+Processing chunk: AGGCCGCTAAGCACGACCACTTTGACGAGCGCAGCCGGGGCCACCTGGAC...
+Pattern 'ACG' found at positions: [500, 234, 235, 236, 404, 124, 387, 303, 237, 485] (Query Time: 9200 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 414700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 13200 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 16000 ns)
+Processing chunk: CCCAGTCACCAAAAAATATTCGACTTAATGGAATTAAACGGAGTTCAAGC...
+Pattern 'ACG' found at positions: [500, 499, 10, 249, 11] (Query Time: 8900 ns)
+Pattern 'TGCA' found at positions: [500, 499] (Query Time: 12900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 14500 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 13500 ns)
+Processing chunk: AGTGCAGGTACCTCCTACCTCCTTCGAAACAGAAGAAACGCCCCGTCGGG...
+Pattern 'ACG' found at positions: [500, 388, 389, 441, 26, 346, 80, 35, 390, 442, 430, 257, 414, 167, 69, 27] (Query Time: 14100 ns)
+Pattern 'TGCA' found at positions: [500, 388, 389, 441] (Query Time: 12500 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 13900 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 89200 ns)
+Processing chunk: TGGAGGACAGCTTGTCAGCACCCTTCCCAGCCTCTGAGCCGTCCCTGGAA...
+Pattern 'ACG' found at positions: [500, 407, 162, 48, 122, 408, 495, 163, 228, 49, 272, 430, 123] (Query Time: 9500 ns)
+Pattern 'TGCA' found at positions: [500, 407] (Query Time: 13700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 15300 ns)
+Pattern 'TTAGGC' found at positions: [500, 407] (Query Time: 13800 ns)
+Processing chunk: CCTGCTGCCCAGGATAGCTGCCTGGAAGCCAGAAAGAGCCAGCCAGATGA...
+Pattern 'ACG' found at positions: [500, 499, 430, 431, 366, 32, 49, 255, 432, 468, 261] (Query Time: 13700 ns)
+Pattern 'TGCA' found at positions: [500, 499] (Query Time: 12400 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 13400 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 14900 ns)
+Processing chunk: CGAGACCGAGCACCCCGTGCCCATCATCCTCAGCAACGAGGACGGAAGGC...
+Pattern 'ACG' found at positions: [500, 119, 395, 120, 354, 184, 284, 360, 396, 493, 180, 367] (Query Time: 9200 ns)
+Pattern 'TGCA' found at positions: [500, 119] (Query Time: 13800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 14800 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 16200 ns)
+Processing chunk: CCAGCTTTTCCCTCACACACCTGACCGACTCGGACATCGAGCAGGGCGGA...
+Pattern 'ACG' found at positions: [77, 500, 78, 395, 66, 396, 245, 67, 220] (Query Time: 18400 ns)
+Pattern 'TGCA' found at positions: [77, 500] (Query Time: 16500 ns)
+Pattern 'GATTACA' found at positions: [77] (Query Time: 14800 ns)
+Pattern 'TTAGGC' found at positions: [77] (Query Time: 13700 ns)
+Processing chunk: GCCGCTTTCTGCACGACGTGGGGCGCTACCTGGAGACCAAGCCGGCTGAC...
+Pattern 'ACG' found at positions: [500, 363, 364, 212, 146, 200, 365, 482, 213, 38, 236, 485] (Query Time: 8300 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 14100 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 147600 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 14400 ns)
+Processing chunk: CGTGGCAAACTTTACCTGGCCCCCCTCACCACGTGTGGGAACCTGCCCTT...
+Pattern 'ACG' found at positions: [500, 499, 150, 6, 363, 39, 111, 423, 151, 267, 7, 297, 393] (Query Time: 90500 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 13300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 16400 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 17300 ns)
+Processing chunk: GCAGCGCTACACCAAGCTAGCTGACTGGCAGTACATCGAGGAGTGCGTGC...
+Pattern 'ACG' found at positions: [500, 499, 78, 109, 385, 253, 298, 166] (Query Time: 14100 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 13800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 15000 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 12100 ns)
+Processing chunk: ACTTCGCCTTCTTGCCGAAGCACAAGGCCAACGCGTACAAGTAG	4ATGG...
+Pattern 'ACG' found at positions: [44, 500, 45, 212, 379, 235, 187, 213] (Query Time: 9800 ns)
+Pattern 'TGCA' found at positions: [44] (Query Time: 16200 ns)
+Pattern 'GATTACA' found at positions: [44] (Query Time: 17800 ns)
+Pattern 'TTAGGC' found at positions: [44] (Query Time: 14800 ns)
+Processing chunk: TCGGCTGCCCCATCGACCTCATGTACAAGAAGGGTGGGGGCTGTGCCCTC...
+Pattern 'ACG' found at positions: [500, 307, 92, 338, 152, 482, 26, 122, 395, 242] (Query Time: 7500 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 14700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 14600 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 15000 ns)
+Processing chunk: TGGGGCTCGGACACGCAGGGCGTGGAGAAGACCCGGCGCTTTCTGCTCGA...
+Pattern 'ACG' found at positions: [273, 500, 274, 285, 332, 286, 333, 287, 425, 334, 386, 467, 114] (Query Time: 7400 ns)
+Pattern 'TGCA' found at positions: [273] (Query Time: 16200 ns)
+Pattern 'GATTACA' found at positions: [273] (Query Time: 17300 ns)
+Pattern 'TTAGGC' found at positions: [273] (Query Time: 17400 ns)
+Processing chunk: TCCCTCCCGTTCAAGATGGTCCTGTCCCAGGTACAGTCCCCCTTCCCGTC...
+Pattern 'ACG' found at positions: [500, 265, 266, 438, 258, 267, 285, 183, 12, 439, 95, 312] (Query Time: 9200 ns)
+Pattern 'TGCA' found at positions: [500, 265] (Query Time: 15900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 15900 ns)
+Pattern 'TTAGGC' found at positions: [500, 265] (Query Time: 15200 ns)
+Processing chunk: CCACCTGGGGTTCTTCCTGCAGTTCCTGGTGAGAAACGGCTTTATCGTAG...
+Pattern 'ACG' found at positions: [235, 500, 236, 234, 499, 233, 425, 478, 33, 426, 151, 254, 444, 479, 106, 166, 381, 34] (Query Time: 10600 ns)
+Pattern 'TGCA' found at positions: [235, 500, 236] (Query Time: 14600 ns)
+Pattern 'GATTACA' found at positions: [235] (Query Time: 17900 ns)
+Pattern 'TTAGGC' found at positions: [235] (Query Time: 15500 ns)
+Processing chunk: TGTAACCAACATAATCCAAGCGGATGAGCCCACGACTTTAACCACCAATG...
+Pattern 'ACG' found at positions: [500, 256, 257, 488, 258, 224, 468, 489, 259, 369, 114, 225, 484, 94, 469] (Query Time: 8800 ns)
+Pattern 'TGCA' found at positions: [500, 256, 257] (Query Time: 14800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 14100 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 15200 ns)
+Processing chunk: TTTTCCGCTCCATGAACTCTGCTCTTGGGAAGAGCGCTTGGCTCGCTGGG...
+Pattern 'ACG' found at positions: [200, 500, 201, 199, 482, 372, 157, 483, 352, 219, 373, 158, 484, 367, 286, 54] (Query Time: 10800 ns)
+Pattern 'TGCA' found at positions: [200, 500] (Query Time: 16900 ns)
+Pattern 'GATTACA' found at positions: [200] (Query Time: 16000 ns)
+Pattern 'TTAGGC' found at positions: [200] (Query Time: 21500 ns)
+Processing chunk: TTGGAGAACAGAATAAAAAACAGCCCCGCCAAGACTATCAGCTGGGATTC...
+Pattern 'ACG' found at positions: [458, 500, 459, 457, 14, 15, 246, 16, 226, 247, 465, 17, 127] (Query Time: 8400 ns)
+Pattern 'TGCA' found at positions: [458, 500, 459] (Query Time: 64100 ns)
+Pattern 'GATTACA' found at positions: [458] (Query Time: 15700 ns)
+Pattern 'TTAGGC' found at positions: [458] (Query Time: 16300 ns)
+Processing chunk: TCAAGGTCTTAATAGACCAGAACCAGACCAGCCGCCCTGTGGCCGTTCAC...
+Pattern 'ACG' found at positions: [500, 89, 439, 187, 90, 409, 440, 463, 266, 332, 260, 434, 113, 395, 20] (Query Time: 16800 ns)
+Pattern 'TGCA' found at positions: [500, 89, 439] (Query Time: 13900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 18100 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 18600 ns)
+Processing chunk: AAAAAGAAGATCAAGTGGATTGGTCTGACCACCAACTCGGCTCAGAACTG...
+Pattern 'ACG' found at positions: [500, 0, 1, 402, 99, 161, 2, 85, 67] (Query Time: 108000 ns)
+Pattern 'TGCA' found at positions: [500, 0, 1, 402] (Query Time: 15700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 29100 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 15000 ns)
+Processing chunk: GTCTAATGGCACGTGGCTTTCTGCCAGTGACCTGACCAACATTGCGATTG...
+Pattern 'ACG' found at positions: [178, 500, 179, 177, 499, 136, 37, 139, 231, 122] (Query Time: 8600 ns)
+Pattern 'TGCA' found at positions: [178, 500, 179] (Query Time: 15300 ns)
+Pattern 'GATTACA' found at positions: [178] (Query Time: 15700 ns)
+Pattern 'TTAGGC' found at positions: [178] (Query Time: 16400 ns)
+Processing chunk: GATGAGCCTGGTGCTGGTTGGCGTGCTGGCAATGGCCTTTACCGCCAGCA...
+Pattern 'ACG' found at positions: [500, 323, 123, 256, 205, 253, 409] (Query Time: 7800 ns)
+Pattern 'TGCA' found at positions: [500, 323] (Query Time: 15900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 137200 ns)
+Pattern 'TTAGGC' found at positions: [500, 323] (Query Time: 16800 ns)
+Processing chunk: CTCCACCTCTCTACACCTATCTTACCTTGCTCCCTGCCACCTACAACTCC...
+Pattern 'ACG' found at positions: [173, 500, 174, 290, 298, 291, 299, 334, 95, 292, 300, 80] (Query Time: 79500 ns)
+Pattern 'TGCA' found at positions: [173, 500] (Query Time: 15800 ns)
+Pattern 'GATTACA' found at positions: [173] (Query Time: 19600 ns)
+Pattern 'TTAGGC' found at positions: [173] (Query Time: 26900 ns)
+Processing chunk: TCTACGAGGCCCTGGATAAGTATGGGGACCTCATCGCTTTGGGCTTCAAG...
+Pattern 'ACG' found at positions: [500, 394, 344, 380, 361, 59, 395, 66, 345, 494, 384] (Query Time: 7500 ns)
+Pattern 'TGCA' found at positions: [500, 394, 344] (Query Time: 16200 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 17000 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 16300 ns)
+Processing chunk: TGCTGTGTGCTAGTCTACACTTCCGGCACCACTGGGAACCCCAAGGGCGT...
+Pattern 'ACG' found at positions: [500, 368, 258, 446, 36, 229, 408, 61, 315, 369] (Query Time: 11000 ns)
+Pattern 'TGCA' found at positions: [500, 368] (Query Time: 14700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 16900 ns)
+Pattern 'TTAGGC' found at positions: [500, 368] (Query Time: 14900 ns)
+Processing chunk: TGCCAAGTGTCAGAAGAACTTCTATGGAGCGGCCCCCATGATGGCAGAGA...
+Pattern 'ACG' found at positions: [500, 499, 373, 73, 265, 199, 460, 142, 16, 13, 374] (Query Time: 8200 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 15100 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 16100 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 31900 ns)
+Processing chunk: TGCTGCTCACCTTGAAGTGCACTCTGGACCCAGACACCTCTGACCAGACT...
+Pattern 'ACG' found at positions: [350, 500, 351, 349, 348, 339, 367, 340, 398, 359, 368, 341, 399, 281] (Query Time: 8300 ns)
+Pattern 'TGCA' found at positions: [350, 500] (Query Time: 17100 ns)
+Pattern 'GATTACA' found at positions: [350] (Query Time: 18300 ns)
+Pattern 'TTAGGC' found at positions: [350] (Query Time: 56400 ns)
+Processing chunk: TCAAAATGAGAGTGGTGTTCCCAGAAGGGCTCGGCGAGGCGTGGGGCCAC...
+Pattern 'ACG' found at positions: [500, 468, 2, 214, 469, 3, 215, 282, 365, 470, 74, 87] (Query Time: 33700 ns)
+Pattern 'TGCA' found at positions: [500, 468] (Query Time: 6800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 7000 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 7100 ns)
+Processing chunk: CTGCCTCCCAGCGCCGTCACGGAGATCAAGCTACACAGCAATATGTTTAT...
+Pattern 'ACG' found at positions: [500, 491, 249, 402, 363, 455, 485, 492, 465, 250, 450, 297, 403, 118] (Query Time: 3800 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 7300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 5500 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6400 ns)
+Processing chunk: GACTTCCCCATACCCTCAGTATTCGGGATTTCACACAGAAAGATCGGAAT...
+Pattern 'ACG' found at positions: [500, 380, 381, 38, 362, 348, 382, 291, 224, 440] (Query Time: 5600 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 698900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 5400 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 5700 ns)
+Processing chunk: GTACTGAGCAGTATCAAAGTAGCCCACATGAACCCAGCAAAATTGAAACT...
+Pattern 'ACG' found at positions: [500, 149, 150, 265, 151, 352, 285, 266, 38, 152] (Query Time: 4100 ns)
+Pattern 'TGCA' found at positions: [500, 149] (Query Time: 7600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 6500 ns)
+Pattern 'TTAGGC' found at positions: [500, 149] (Query Time: 6600 ns)
+Processing chunk: GCCCTGGAGCACTTATATGACAGCGAAACCATTAGAAACTATTCCTTGGG...
+Pattern 'ACG' found at positions: [153, 500, 154, 152, 170, 201, 162, 305, 171, 202, 25, 35] (Query Time: 3900 ns)
+Pattern 'TGCA' found at positions: [153, 500] (Query Time: 6500 ns)
+Pattern 'GATTACA' found at positions: [153] (Query Time: 6800 ns)
+Pattern 'TTAGGC' found at positions: [153] (Query Time: 5800 ns)
+Processing chunk: CAGGTAGAGCTGACCGGAAACAGCATTTATGAATACATTCACCCGGCAGA...
+Pattern 'ACG' found at positions: [500, 271, 17, 272, 18, 85, 421, 168] (Query Time: 3800 ns)
+Pattern 'TGCA' found at positions: [500, 271, 17] (Query Time: 6800 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 6100 ns)
+Pattern 'TTAGGC' found at positions: [500, 271] (Query Time: 5300 ns)
+Processing chunk: TCACCACCATCTGCCTCCTGGACAGGTGACCACCAAGTACTACAGGTTCC...
+Pattern 'ACG' found at positions: [500, 297, 55, 208, 344, 169, 261, 291, 298, 271, 56, 256, 103, 209] (Query Time: 3100 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 5900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 4500 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 5200 ns)
+Processing chunk: GCTTTGCGCTTGACCACTCGAGGCTGGTGGAAGAGAGGCATTTCCATACC...
+Pattern 'ACG' found at positions: [500, 499, 455, 456, 457, 186, 344, 458, 187, 478, 351, 383, 168, 413, 154, 321] (Query Time: 3500 ns)
+Pattern 'TGCA' found at positions: [500, 499] (Query Time: 7300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 5900 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6300 ns)
+Processing chunk: ACAGGTGAAATCTGCCATGGCTCTGCTCTTGCCAACACTTCACCATGTGA...
+Pattern 'ACG' found at positions: [459, 500, 460, 458, 71, 158, 91, 467, 72, 331, 341] (Query Time: 4700 ns)
+Pattern 'TGCA' found at positions: [459] (Query Time: 7700 ns)
+Pattern 'GATTACA' found at positions: [459] (Query Time: 6400 ns)
+Pattern 'TTAGGC' found at positions: [459] (Query Time: 7500 ns)
+Processing chunk: TTTATCCCGCCTCCCTACGGCGTGCTCAGGTCCCTGCTGGAGAACCCGCT...
+Pattern 'ACG' found at positions: [500, 174, 100, 241, 175, 428, 101, 90, 84, 242, 123, 42, 176] (Query Time: 4500 ns)
+Pattern 'TGCA' found at positions: [500, 174, 100, 241] (Query Time: 6300 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 6200 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6500 ns)
+Processing chunk: AGATCTTGCCCTTTCCAGCATCCCTGGCCAGGAAATGTTTGACCCTCGCA...
+Pattern 'ACG' found at positions: [349, 500, 350, 417, 49, 159, 205, 97, 106, 298, 418] (Query Time: 4200 ns)
+Pattern 'TGCA' found at positions: [349, 500, 350] (Query Time: 6400 ns)
+Pattern 'GATTACA' found at positions: [349] (Query Time: 6900 ns)
+Pattern 'TTAGGC' found at positions: [349] (Query Time: 7700 ns)
+Processing chunk: AGTGCTGGCGCTAGTGTTGCAGCGCAAGCCGCAGCTGCTGCAGGTGACCA...
+Pattern 'ACG' found at positions: [500, 208, 148, 49, 64, 274, 25] (Query Time: 5700 ns)
+Pattern 'TGCA' found at positions: [500, 208] (Query Time: 5900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 6000 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 5900 ns)
+Processing chunk: GTGCAGCCCGGAGGCAGCATGCTCTGCTGTACAATGTCAAGAGACACAGC...
+Pattern 'ACG' found at positions: [500, 326, 494, 338, 461, 374, 104, 420] (Query Time: 3500 ns)
+Pattern 'TGCA' found at positions: [500, 326, 494] (Query Time: 6900 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 7700 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6000 ns)
+Processing chunk: AACAGCAACCCTCCTCTGCCCAGGTGCTACCAGTGCAAAGCTGCTAAAGT...
+Pattern 'ACG' found at positions: [378, 500, 379, 377, 277, 133, 288, 278, 36, 45, 241] (Query Time: 3700 ns)
+Pattern 'TGCA' found at positions: [378, 500] (Query Time: 6100 ns)
+Pattern 'GATTACA' found at positions: [378] (Query Time: 6600 ns)
+Pattern 'TTAGGC' found at positions: [378] (Query Time: 6000 ns)
+Processing chunk: CTGCTGTCTCGTGTGTTCCAGCCACAGAACCTTCGGGAAGACCGGGTGCT...
+Pattern 'ACG' found at positions: [500, 499, 498, 390, 294, 225, 63, 231, 273] (Query Time: 8800 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 6700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 5600 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6200 ns)
+Processing chunk: GGATATGTACACCTTTGACTCCTCCCCAGAGGCTGCCCAGCAGACCTACA...
+Pattern 'ACG' found at positions: [500, 280, 281, 370, 286, 245, 386, 82, 220, 282, 371, 375, 250] (Query Time: 4100 ns)
+Pattern 'TGCA' found at positions: [500, 280] (Query Time: 7600 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 7500 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6300 ns)
+Processing chunk: TCATCCCCCCTAAGAAGGGCAGTAAGGAGCAGGCGGCCTCCGAGCTCATA...
+Pattern 'ACG' found at positions: [308, 500, 309, 307, 306, 401, 136, 488, 402, 484, 146, 263, 370, 379, 155, 236] (Query Time: 4000 ns)
+Pattern 'TGCA' found at positions: [308, 500] (Query Time: 6900 ns)
+Pattern 'GATTACA' found at positions: [308] (Query Time: 6500 ns)
+Pattern 'TTAGGC' found at positions: [308] (Query Time: 5900 ns)
+Processing chunk: CCAGTGAGAAAGACAAAACTGCTAAGGCCAAGGTCCAACAGACTCCTGAT...
+Pattern 'ACG' found at positions: [500, 422, 423, 437, 424, 278, 14, 467, 438, 333, 382, 425, 279, 246, 15, 468, 439, 8, 339] (Query Time: 4200 ns)
+Pattern 'TGCA' found at positions: [500, 422] (Query Time: 6100 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 7100 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6100 ns)
+Processing chunk: ATGGCAGATGACTATTCAGACTCCCTCATCACCAAAAAGCAAGTGTCAGT...
+Pattern 'ACG' found at positions: [500, 33, 34, 120, 350, 454, 415, 216, 35, 365, 152, 171, 121, 351] (Query Time: 3700 ns)
+Pattern 'TGCA' found at positions: [500, 33] (Query Time: 7500 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 6100 ns)
+Pattern 'TTAGGC' found at positions: [500, 33] (Query Time: 6600 ns)
+Processing chunk: GTGTGATGTGGCCCATGAGTTTGGAGCAATCACCTTCGTGGATGAGGTCC...
+Pattern 'ACG' found at positions: [500, 424, 111, 425, 112, 426, 334, 142, 113, 427, 132, 463, 328, 446, 335] (Query Time: 4100 ns)
+Pattern 'TGCA' found at positions: [500, 424] (Query Time: 12200 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 5800 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6400 ns)
+Processing chunk: CCCGGGGAGAAGAGCTCCTACGGATTGCCCCCACCCCTCACCACACACCC...
+Pattern 'ACG' found at positions: [233, 500, 234, 232, 499, 370, 371, 372, 360, 373, 361, 330, 374] (Query Time: 4100 ns)
+Pattern 'TGCA' found at positions: [233, 500] (Query Time: 7800 ns)
+Pattern 'GATTACA' found at positions: [233] (Query Time: 6400 ns)
+Pattern 'TTAGGC' found at positions: [233] (Query Time: 4900 ns)
+Processing chunk: GAGTGGTCAATTTTCTGGGAACTCTATCCATGCATGTAAGTATGTTTGTC...
+Pattern 'ACG' found at positions: [500, 164, 421, 165, 193, 476] (Query Time: 4300 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 7500 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 7600 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 6700 ns)
+Processing chunk: ATTCTACTAATAGTTTGCTTCCTTCCTTATAGTATTTTTAAACCCATTTT...
+Pattern 'ACG' found at positions: [246, 500, 247, 245, 104, 105, 106, 174, 100, 107, 175] (Query Time: 5900 ns)
+Pattern 'TGCA' found at positions: [246, 500, 247] (Query Time: 6700 ns)
+Pattern 'GATTACA' found at positions: [246] (Query Time: 6000 ns)
+Pattern 'TTAGGC' found at positions: [246] (Query Time: 6000 ns)
+Processing chunk: CTCTCCCTCCTGCTGTTTTCTGCACCTATCCGAGCTACGGCGTACTCCAA...
+Pattern 'ACG' found at positions: [500, 435, 436, 437, 48, 457, 467, 438, 482, 147, 49, 458, 301] (Query Time: 3900 ns)
+Pattern 'TGCA' found at positions: [500, 435, 436] (Query Time: 7700 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 6300 ns)
+Pattern 'TTAGGC' found at positions: [500, 435, 436] (Query Time: 21600 ns)
+Processing chunk: GCTGCTGAGCATTGCCATCACCTCTGCTCTCCTGTGGCTCCCCGAATGGG...
+Pattern 'ACG' found at positions: [500, 226, 227, 329, 228, 367, 330, 257, 337, 229, 368, 331, 361, 199, 150, 211] (Query Time: 4100 ns)
+Pattern 'TGCA' found at positions: [500] (Query Time: 6500 ns)
+Pattern 'GATTACA' found at positions: [500] (Query Time: 5800 ns)
+Pattern 'TTAGGC' found at positions: [500] (Query Time: 7400 ns)
+Processing chunk: TTAAATAG	0ATGGCCGCGGAGCTGAGCATGGGGCCAGAGCTGCCCACCA...
+Pattern 'ACG' found at positions: [8, 500, 9, 374, 2, 239, 295, 310, 73, 280] (Query Time: 4100 ns)
+Pattern 'TGCA' found at positions: [8, 500] (Query Time: 7700 ns)
+Pattern 'GATTACA' found at positions: [8] (Query Time: 9400 ns)
+Pattern 'TTAGGC' foun
