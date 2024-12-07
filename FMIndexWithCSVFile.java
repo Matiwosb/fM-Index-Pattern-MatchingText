@@ -2,8 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class FMIndexWithCSVFile {
-    private static final int CHUNK_SIZE = 500;
-
     public static void main(String[] args) {
         String[] files = {
             "./chimpanzee.txt",
@@ -20,7 +18,9 @@ public class FMIndexWithCSVFile {
 
             try (PrintWriter writer = new PrintWriter(new FileWriter(outputFile));
                  PrintWriter csvWriter = new PrintWriter(new FileWriter(csvFile))) {
-                csvWriter.println("BlockingFactor,MemoryUsage,QueryTime,Pattern");
+                
+                // Enhanced CSV header with more metrics
+                csvWriter.println("BlockingFactor,SequenceLength,PatternLength,MemoryUsage,BuildTime,QueryTime,MatchesFound");
                 processFile(file, writer, csvWriter);
             } catch (IOException e) {
                 System.err.println("Error creating output files: " + e.getMessage());
@@ -47,10 +47,6 @@ public class FMIndexWithCSVFile {
             return;
         }
 
-        System.out.println("-------------------------------------------------");
-        System.out.println("Starting processing for file: " + inputFile);
-        System.out.println("-------------------------------------------------");
-
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
             StringBuilder sequenceBuilder = new StringBuilder();
             String line;
@@ -59,10 +55,12 @@ public class FMIndexWithCSVFile {
             while ((line = reader.readLine()) != null) {
                 lineCount++;
                 if (!line.startsWith(">")) {
-                    sequenceBuilder.append(line.trim());
+                    line = line.replaceAll("[^ACGT]", "").trim();
+                    if (!line.isEmpty()) {
+                        sequenceBuilder.append(line);
+                    }
                 }
 
-                // Log every 1000 lines for progress tracking
                 if (lineCount % 1000 == 0) {
                     System.out.println("Read " + lineCount + " lines...");
                 }
@@ -73,73 +71,80 @@ public class FMIndexWithCSVFile {
             System.out.println("Sequence length: " + sequence.length());
 
             if (sequence.isEmpty()) {
-                System.out.println("WARNING: File " + inputFile + " produced empty sequence");
+                System.out.println("WARNING: Empty sequence");
                 return;
             }
 
-            analyzePerformance(sequence, inputFile, writer, csvWriter);
+            // Test with different blocking factors
+            int[] blockingFactors = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
+            
+            for (int blockSize : blockingFactors) {
+                System.out.println("\nTesting with blocking factor: " + blockSize);
+                analyzePerformance(sequence, inputFile, writer, csvWriter, blockSize);
+            }
 
         } catch (IOException e) {
             System.err.println("Error reading file: " + inputFile);
-            System.err.println("Error details: " + e.getMessage());
             e.printStackTrace();
         }
-
-        System.out.println("-------------------------------------------------");
-        System.out.println("Finished processing for file: " + inputFile);
-        System.out.println("-------------------------------------------------\n");
     }
 
-    private static void analyzePerformance(String sequence, String fileName, PrintWriter writer, PrintWriter csvWriter) {
+    private static void analyzePerformance(String sequence, String fileName, 
+                                         PrintWriter writer, PrintWriter csvWriter, int blockSize) {
+        long buildStartTime = System.currentTimeMillis();
         long initialMemory = getUsedMemory();
-        long startTime = System.currentTimeMillis();
 
-        int totalLength = sequence.length();
-        for (int start = 0; start < totalLength; start += CHUNK_SIZE) {
-            int end = Math.min(start + CHUNK_SIZE, totalLength);
-            String chunk = sequence.substring(start, end);
-
-            System.out.println("Processing chunk: " + chunk.substring(0, Math.min(50, chunk.length())) + "...");
-            writer.println("Processing chunk: " + chunk.substring(0, Math.min(50, chunk.length())) + "...");
+        for (int start = 0; start < sequence.length(); start += blockSize) {
+            int end = Math.min(start + blockSize, sequence.length());
+            String chunk = sequence.substring(start, end) + "$";
 
             try {
-                // Ensure the sequence ends with '$'
-                if (!chunk.endsWith("$")) {
-                    chunk += "$";
-                }
-                String chunkTemp = chunk.replace(' ', '(');
-
-                // Build the suffix array
-                int[] suffixArray = buildSuffixArray(chunkTemp);
-
-                // Burrows-Wheeler Transformation
+                // Build data structures
+                int[] suffixArray = buildSuffixArray(chunk);
                 Burrows_Wheeler bw = new Burrows_Wheeler();
-                String bwtSuffix = bw.transform(chunkTemp, suffixArray);
+                String bwtSuffix = bw.transform(chunk, suffixArray);
 
-                // Build Wavelet Tree
                 char minChar = (char) bwtSuffix.chars().min().orElse('$');
                 char maxChar = (char) bwtSuffix.chars().max().orElse('z');
-                WaveletTree wt = new WaveletTree(bwtSuffix, minChar, maxChar);
+                WaveletTree wt = new WaveletTree(bwtSuffix, minChar, maxChar, blockSize);
 
-                // Perform pattern matching queries
-                String[] patterns = { "ACG", "TGCA", "GATTACA", "TTAGGC" }; // Example patterns
+                long buildTime = System.currentTimeMillis() - buildStartTime;
+
+                String[] patterns = {"ACG", "TGCA", "GATTACA", "TTAGGC"};
                 for (String pattern : patterns) {
+                    // Verify pattern exists using direct search
+                    boolean exists = false;
+                    for (int i = 0; i <= chunk.length() - pattern.length(); i++) {
+                        if (chunk.substring(i, i + pattern.length()).equals(pattern)) {
+                            exists = true;
+                            writer.println("Pattern found at position " + i + " using direct search");
+                        }
+                    }
+
                     long queryStart = System.nanoTime();
                     int[] positions = backwardSearch(pattern, wt, suffixArray);
-                    long queryEnd = System.nanoTime();
-                    System.out.println("Pattern '" + pattern + "' found at positions: " +
-                            Arrays.toString(positions) + " (Query Time: " + (queryEnd - queryStart) + " ns)");
-                    writer.println("Pattern '" + pattern + "' found at positions: " +
-                            Arrays.toString(positions) + " (Query Time: " + (queryEnd - queryStart) + " ns)");
+                    long queryTime = System.nanoTime() - queryStart;
 
-                    // Write CSV data
-                    long memoryUsage = getUsedMemory() - initialMemory;
-                    csvWriter.println(CHUNK_SIZE + "," + memoryUsage + "," + (queryEnd - queryStart) + "," + pattern);
+                    // Write results to both output files
+                    String resultStr = String.format("Pattern '%s' found at positions: %s (Query Time: %d ns)",
+                            pattern, Arrays.toString(positions), queryTime);
+                    System.out.println(resultStr);
+                    writer.println(resultStr);
+
+                    // Write CSV metrics
+                    csvWriter.println(String.format("%d,%d,%d,%d,%d,%d,%d",
+                        blockSize,
+                        sequence.length(),
+                        pattern.length(),
+                        getUsedMemory() - initialMemory,
+                        buildTime,
+                        queryTime,
+                        positions.length
+                    ));
                 }
 
             } catch (Exception e) {
-                System.err.println("Error processing chunk: " + e.getMessage());
-                writer.println("Error processing chunk: " + e.getMessage());
+                System.err.println("Error processing block " + blockSize + ": " + e.getMessage());
                 e.printStackTrace();
             }
         }
@@ -147,16 +152,20 @@ public class FMIndexWithCSVFile {
         long finalMemory = getUsedMemory();
         long endTime = System.currentTimeMillis();
 
-        System.out.println("File: " + fileName);
-        writer.println("File: " + fileName);
-        System.out.println("Initial Memory: " + initialMemory + " bytes");
-        writer.println("Initial Memory: " + initialMemory + " bytes");
-        System.out.println("Final Memory: " + finalMemory + " bytes");
-        writer.println("Final Memory: " + finalMemory + " bytes");
-        System.out.println("Memory Used: " + Math.abs(finalMemory - initialMemory) + " bytes");
-        writer.println("Memory Used: " + Math.abs(finalMemory - initialMemory) + " bytes");
-        System.out.println("Total Time Taken: " + (endTime - startTime) + " ms");
-        writer.println("Total Time Taken: " + (endTime - startTime) + " ms");
+        // Write summary statistics
+        String[] summaryStats = {
+            "File: " + fileName,
+            "Blocking Factor: " + blockSize,
+            "Initial Memory: " + initialMemory + " bytes",
+            "Final Memory: " + finalMemory + " bytes",
+            "Memory Used: " + Math.abs(finalMemory - initialMemory) + " bytes",
+            "Total Time Taken: " + (endTime - buildStartTime) + " ms"
+        };
+
+        for (String stat : summaryStats) {
+            System.out.println(stat);
+            writer.println(stat);
+        }
     }
 
     private static int[] buildSuffixArray(String text) {
@@ -177,6 +186,10 @@ public class FMIndexWithCSVFile {
     }
 
     private static int[] backwardSearch(String pattern, WaveletTree waveletTree, int[] suffixArray) {
+        if (pattern == null || pattern.isEmpty()) {
+            return new int[0];
+        }
+
         int start = 0;
         int end = suffixArray.length - 1;
 
@@ -194,10 +207,15 @@ public class FMIndexWithCSVFile {
             end = rankEnd - 1;
         }
 
-        int[] positions = new int[end - start + 1];
-        for (int i = start; i <= end; i++) {
-            positions[i - start] = suffixArray[i];
+        if (end < start) {
+            return new int[0];
         }
+
+        int[] positions = new int[end - start + 1];
+        for (int i = 0; i < positions.length; i++) {
+            positions[i] = suffixArray[start + i];
+        }
+        Arrays.sort(positions);
 
         return positions;
     }
